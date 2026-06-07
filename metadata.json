@@ -1,0 +1,6 @@
+{
+  "name": "Tasleem Beauty Parlour",
+  "description": "A world-class, premium, fully responsive luxury beauty salon and academy platform with interactive bookings, customer and admin dashboards, and elegant service portfolios.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
