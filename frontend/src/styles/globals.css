@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f7f4;
+  /* Bridal background is applied via App.jsx to avoid css-loader resolution issues */
+  color: #1a1a1a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.section-header {
+  font-family: "Playfair Display", serif;
+  color: #1a1a1a;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  @apply px-8 py-3 bg-gradient-to-r from-amber-500 to-yellow-600 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply px-8 py-3 bg-white text-amber-600 border-2 border-amber-600 rounded-full font-semibold hover:bg-amber-50 transition-all duration-300;
+}
+
+.fade-in {
+  @apply opacity-100 transition-opacity duration-500;
+}
